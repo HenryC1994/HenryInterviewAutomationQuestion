@@ -26,6 +26,7 @@ public class LoginPage extends TestPage1 {
     // Action Methods
     public LoginPage inputUsername(String username) {
         wait.until(ExpectedConditions.visibilityOf(inputUsername)).sendKeys(username);
+        // System.out.println(inputUsername.isDisplayed());
         return this;
     }
 

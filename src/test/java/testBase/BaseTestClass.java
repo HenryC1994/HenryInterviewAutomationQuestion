@@ -66,5 +66,4 @@ public class BaseTestClass {
         return this.driver;
     }
 
-
 }
